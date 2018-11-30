@@ -32,7 +32,7 @@ public class TestStrategy {
         });
         System.out.println(list);
 
-        //先按照姓名，再按照年龄进行排序???年龄会自动排序？？？
+        //先按照姓名，再按照年龄进行排序(???年龄会自动排序？？？)
         Collections.sort(list, new Comparator<Student>() {
             @Override
             public int compare(Student o1, Student o2) {
